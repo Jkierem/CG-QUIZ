@@ -1,0 +1,43 @@
+{
+  "name": "quiz1",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/Jkierem/CG8-Automata",
+  "author": "Juan Miguel Gomez <juanmiguelgomez8@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@juan-utils/functions": "^1.0.1",
+    "@juan-utils/state": "^1.0.4",
+    "@juan-utils/structures": "^1.0.1",
+    "three": "^0.108.0",
+    "three-orbitcontrols": "2.108.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}
