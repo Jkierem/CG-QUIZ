@@ -13,7 +13,7 @@ document.body.appendChild(renderer.domElement);
 
 const Box = (width,height,depth,transform = x => x) => {
     const geometry = new THREE.BoxGeometry(width,height,depth);
-    const material = new THREE.MeshNormalMaterial({ color: Colors.blue });
+    const material = new THREE.MeshNormalMaterial();
     const mesh = new THREE.Mesh(geometry,material);
     transform(mesh)
     return mesh;
