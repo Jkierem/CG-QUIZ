@@ -10,7 +10,7 @@
     "@juan-utils/functions": "^1.0.1",
     "@juan-utils/state": "^1.0.4",
     "@juan-utils/structures": "^1.0.1",
-    "three": "^0.108.0",
+    "three": "^0.125.0",
     "three-orbitcontrols": "2.108.1"
   },
   "devDependencies": {
